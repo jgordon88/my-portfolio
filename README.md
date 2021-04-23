@@ -1,2 +1,2 @@
-# my-portfolio
-A static page with an overview of my skills and goals!
+# about_me-
+Overview of skills 

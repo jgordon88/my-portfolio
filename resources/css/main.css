@@ -1,0 +1,257 @@
+/***** BASE STYLES*******/
+body {
+  font-family: "Source Sans Pro";
+  color: #2b2b2b;
+}
+
+/*** Grid ***/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+/* Use overflow: auto to clear your floats */
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/* Header */
+header {
+  /* height: 100vh; */
+  background: url("../images/bb.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  padding: 65px 0 65px 25px;
+  color: #e7e7de;
+}
+
+header h2 span{
+  color:  #c49474;
+}
+
+header h2 {
+  width: 80%;
+  clear: both;
+  font-family: "Lora", serif;
+  font-size: 80px;
+  line-height: ;
+  color: #e7e7de;
+  padding: 200px 0;
+  margin-right: 100px;
+}
+
+  header h2 {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+header h2 span {
+  color: #c49474;
+}
+
+/* Navigation  */
+nav {
+  float: right;
+  padding: 75px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  color: #c49474;
+  font-weight: 900;
+  padding-left: 80px;
+}
+
+/* About Section */
+
+#about {
+  background: #fff;
+}
+
+#about {
+  animation: fadeIn ease 7s;
+  -webkit-animation: fadeIn ease 7s;
+  -moz-animation: fadeIn ease 7s;
+  -o-animation: fadeIn ease 7s;
+  -ms-animation: fadeIn ease 7s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  padding-left: 50px;
+}
+
+#about p {
+  font-family: "Source Sans Pro";
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Work Secton  */
+#work {
+  background-color: #08438a;
+  text-align: center;
+}
+
+.work{
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 9s;
+  -moz-animation: fadeIn ease 9s;
+  -o-animation: fadeIn ease 9s;
+  -ms-animation: fadeIn ease 9s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+#work img {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#work h3 {
+  font-family: "Source Sans Pro";
+  color: #e7e7de;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#work p {
+  font-family: Lora;
+  color: #e7e7de;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff;
+}
+
+#contact {
+  animation: fadeIn ease 9s;
+  -webkit-animation: fadeIn ease 9s;
+  -moz-animation: fadeIn ease 9s;
+  -o-animation: fadeIn ease 9s;
+  -ms-animation: fadeIn ease 9s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact-img {
+  margin-left: 25px;
+  border: 12px solid #fff;
+}
+
+#contact h2,
+#contact #email-header,
+#contact #socialmedia-header,
+#contact ul {
+  padding-left: 115px;
+}
+
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+  font-family: Lora;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2b2b2b;
+}
+
+#contact #email-header {
+  font: "Source Sans Pro";
+  color: #2b2b2b;
+  font-size: 32px;
+  /* font-weight: 1; */
+  line-height: 44px;
+  margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+
+.center{
+  display:flex; 
+  justify-content: center;
+}
+
+
+/* .center .link {
+  padding-left: 25%;
+} */
+
+/* .center .git {
+  padding-right: 25%;
+} */
+
+#contact a {
+  font: "Source Sans Pro";
+  color: #c49075;
+  font-size: 28px;
+}
+
+#contact ul {
+  list-style-type: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 48px;
+}
